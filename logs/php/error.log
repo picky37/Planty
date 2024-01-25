@@ -1,0 +1,5 @@
+[25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
