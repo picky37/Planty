@@ -32,3 +32,8 @@ Updated: 2024-01-25 10:38:04
     justify-content: space-between;
     align-items: center;
 }
+
+#copyright{
+    display: flex;
+    justify-content: center;
+}
