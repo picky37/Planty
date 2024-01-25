@@ -11,3 +11,24 @@ Updated: 2024-01-25 10:38:04
 
 */
 
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
