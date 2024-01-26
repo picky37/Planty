@@ -15,7 +15,6 @@ Updated: 2024-01-25 10:38:04
 
 #wrapper{
     height: 80px;
-    background-color: rgb(160, 120, 198);
 }
 
 .menu{
@@ -28,7 +27,6 @@ Updated: 2024-01-25 10:38:04
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-    background-color: antiquewhite;
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -60,3 +58,4 @@ Updated: 2024-01-25 10:38:04
     display: flex;
     justify-content: center;
 }
+
