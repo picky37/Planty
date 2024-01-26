@@ -11,16 +11,28 @@ Updated: 2024-01-25 10:38:04
 
 */
 
+/* Header ////////////////////////////////////////////////////////////////////////////////////////*/
 
-.menu ul{
+#wrapper{
+    height: 80px;
+    background-color: rgb(160, 120, 198);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-right: 61px;
+}
+.menu li{
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
     padding-right: 20px;
     background-color: antiquewhite;
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .menu a{
@@ -31,7 +43,18 @@ Updated: 2024-01-25 10:38:04
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 201px;
+    height: 19px;
+}
+
+/* Footer ////////////////////////////////////////////////////////////////////////////////////////*/
 
 #copyright{
     display: flex;
