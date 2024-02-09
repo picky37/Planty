@@ -70,3 +70,14 @@ Updated: 2024-01-25 10:38:04
     display: none !important;
     }
     }
+
+
+/* .wpcf7-form-control .wpcf7-text .wpcf7-validates-as-required */
+
+.noe{
+    border-radius: 10px !important;
+}
+
+.formulaire_nr textarea {
+    resize: none;
+}
