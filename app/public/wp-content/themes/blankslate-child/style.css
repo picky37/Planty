@@ -63,3 +63,10 @@ Updated: 2024-01-25 10:38:04
     justify-content: center;
 }
 
+/* Nous Rencontrer ////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1500px) {
+    .wp-image-81 {
+    display: none !important;
+    }
+    }
