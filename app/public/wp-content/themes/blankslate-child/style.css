@@ -68,9 +68,16 @@ Updated: 2024-01-25 10:38:04
 
 /* Footer ////////////////////////////////////////////////////////////////////////////////////////*/
 
-#copyright{
+/* #copyright{
     display: flex;
     justify-content: center;
+} */
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
 }
 
 /* Nous Rencontrer ////////////////////////////////////////////////////////////////////////////////////////*/
