@@ -21,20 +21,23 @@ Updated: 2024-01-25 10:38:04
     display: flex;
     align-items: center;
     gap: 60px;
-    padding-right: 61px;
 }
 .menu li{
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
+}
+
+.menu ul{
+    margin-right: 0px;
 }
 
 .menu a{
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 61px;
+    padding-left: 61px;
 }
 
 #header{
@@ -46,8 +49,8 @@ Updated: 2024-01-25 10:38:04
 
 .header a{
     display: none;
-
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -59,6 +62,19 @@ Updated: 2024-01-25 10:38:04
 .logo img{
     width: 201px;
     height: 19px;
+}
+
+.menu-item-34{
+    background-color: #DC9F96;
+}
+
+.menu-item-34 a{
+    color: white;
+}
+
+.menu-item-34:hover{
+    background-color: #cf6252;
+    transition: 0.5s;
 }
 
 
