@@ -21,6 +21,9 @@ Updated: 2024-01-25 10:38:04
     display: flex;
     align-items: center;
     gap: 60px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    color: black;
 }
 .menu li{
     display: flex;
@@ -38,6 +41,17 @@ Updated: 2024-01-25 10:38:04
     padding-bottom: 32px;
     padding-right: 61px;
     padding-left: 61px;
+    color: black;
+}
+
+.menu-item-35 a:hover{
+    color: #cf6252;
+    transition: 0.5s;
+}
+
+.menu-item-35 a{
+font-weight: 500;
+font-size: 16px;
 }
 
 #header{
@@ -70,6 +84,8 @@ Updated: 2024-01-25 10:38:04
 
 .menu-item-34 a{
     color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .menu-item-34:hover{
