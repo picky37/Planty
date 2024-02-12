@@ -93,8 +93,22 @@ Updated: 2024-01-25 10:38:04
 
 .noe{
     border-radius: 10px !important;
+    height: 71px;
+    width: 383px;
 }
 
 .formulaire_nr textarea {
     resize: none;
+    height: 237px;
+    width: 383px;
+}
+
+.formulaire_nr p{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.wpcf7-spinner{
+    display: none;
 }
