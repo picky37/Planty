@@ -139,9 +139,21 @@ font-size: 16px;
 }
 
 .formulaire_nr p{
-    padding-top: 45px;
     display: flex;
     justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text_champ{
+    padding-left: 12px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 10px;
 }
 
 .wpcf7-spinner{
