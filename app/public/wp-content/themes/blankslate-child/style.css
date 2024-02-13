@@ -169,3 +169,15 @@ font-size: 16px;
     background-color: #E0B9B4;
     border: none;
 }
+
+.formulaire_nr input[type="submit"]:hover{
+    background-color: #C02E44;
+    transition: 0.5s;
+}
+
+
+/* Commander ////////////////////////////////////////////////////////////////////////////////////////*/
+
+.entry-title{
+    display: none;
+}
