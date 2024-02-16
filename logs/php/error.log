@@ -4,3 +4,9 @@
 [25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
 [25-Jan-2024 10:38:04 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
 [02-Feb-2024 15:21:23 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[16-Feb-2024 09:24:15 UTC] PHP Warning:  Undefined array key 1 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[16-Feb-2024 09:24:15 UTC] PHP Warning:  Undefined array key 2 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[16-Feb-2024 09:24:37 UTC] PHP Warning:  Undefined array key 1 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[16-Feb-2024 09:24:37 UTC] PHP Warning:  Undefined array key 2 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[16-Feb-2024 09:26:18 UTC] PHP Warning:  Undefined array key 1 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[16-Feb-2024 09:26:18 UTC] PHP Warning:  Undefined array key 2 in C:\Users\picky\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
