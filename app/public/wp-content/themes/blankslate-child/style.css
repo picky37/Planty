@@ -214,3 +214,39 @@ font-size: 16px;
     border-radius: 1px;
     border: solid 1px black;
 }
+
+.formulaire_livraison{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.formulaire_livraison input[type="submit"]{
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background-color: #E0B9B4;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.formulaire_livraison input[type="submit"]:hover{
+    background-color: #C02E44;
+    transition: 0.5s;
+}
+
+.formulaire_livraison p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
