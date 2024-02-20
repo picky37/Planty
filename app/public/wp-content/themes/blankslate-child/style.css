@@ -138,6 +138,11 @@ font-size: 16px;
     width: 383px;
 }
 
+.img_formulaire {
+    margin-left: -360px;
+    margin-top: -210px;
+}
+
 .formulaire_nr p{
     display: flex;
     justify-content: center;
@@ -168,6 +173,9 @@ font-size: 16px;
     color: white;
     background-color: #E0B9B4;
     border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .formulaire_nr input[type="submit"]:hover{
@@ -249,4 +257,8 @@ font-size: 16px;
     font-size: 20px;
     padding-bottom: 10px;
     color: white;
+}
+
+.formulaire_livraison label{
+    padding-bottom: 10px;
 }
