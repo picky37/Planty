@@ -262,3 +262,117 @@ font-size: 16px;
 .formulaire_livraison label{
     padding-bottom: 10px;
 }
+
+
+/* test formulaire commande */
+
+.img_produits p{
+    display: flex;
+    justify-content: center;
+}
+
+.img_produits img{
+    width: 230px;
+    height: 128px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.compteur{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.compteur input[type="number"]{
+    width: 39px;
+    height: 59px;
+}
+
+.compteur_individuel{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.separateur hr{
+    width: 885px;
+}
+
+.formulaire_commande{
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire_gauche{
+    width: 400px;
+    height: 500px;
+}
+
+.formulaire_nom_gauche{
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.formulaire_nom_droit{
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.formulaire_droit{
+    width: 400px;
+    height: 500px;
+}
+
+.formulaire_input input[type="text"]{
+    border-radius: 10px;
+    height: 71px;
+    width: 383px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.separateur_2{
+    width: 5px;
+    height: 500px;
+    border-left: solid 1px white;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.formulaire_input label{
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.bouton_envoyer input[type="submit"]{
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background-color: #E0B9B4;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bouton_envoyer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.bouton_envoyer input[type="submit"]:hover{
+    background-color: #C02E44;
+    transition: 0.5s;
+}
