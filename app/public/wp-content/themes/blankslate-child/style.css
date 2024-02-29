@@ -24,6 +24,7 @@ Updated: 2024-01-25 10:38:04
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     color: black;
+    flex-wrap: wrap;
 }
 .menu li{
     display: flex;
@@ -57,7 +58,6 @@ font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
 }
 
 .header a{
@@ -92,6 +92,28 @@ font-size: 16px;
     transition: 0.5s;
 }
 
+
+@media screen and (max-width: 908px) {
+    #wrapper {
+    height: 230px;
+    }
+    #header {
+        align-items: flex-start;
+        }
+    .logo {
+        margin-top: 30px
+        }
+    }
+
+
+    @media screen and (max-width: 440px) {
+        #wrapper {
+        height: 350px;
+        }
+        #header {
+            flex-direction: column;
+            }
+        }
 
 
 /* Body ////////////////////////////////////////////////////////////////////////////////////////*/
@@ -190,84 +212,10 @@ font-size: 16px;
     display: none;
 }
 
-.compteur{
-    display: flex;
-    justify-content: space-around;
-}
-
-.fraise input{
-    width: 40px;
-    height: 50px;
-    border-radius: 1px;
-    border: solid 1px black;
-}
-
-.pamplemousse input{
-    width: 40px;
-    height: 50px;
-    border-radius: 1px;
-    border: solid 1px black;
-}
-
-.framboise input{
-    width: 40px;
-    height: 50px;
-    border-radius: 1px;
-    border: solid 1px black;
-}
-
-.citron input{
-    width: 40px;
-    height: 50px;
-    border-radius: 1px;
-    border: solid 1px black;
-}
-
-.formulaire_livraison{
-    width: 1000px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-.formulaire_livraison input[type="submit"]{
-    border-radius: 5px;
-    width: 198px;
-    height: 55px;
-    color: white;
-    background-color: #E0B9B4;
-    border: none;
-    font-family: 'Syne', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.formulaire_livraison input[type="submit"]:hover{
-    background-color: #C02E44;
-    transition: 0.5s;
-}
-
-.formulaire_livraison p{
-    display: flex;
-    justify-content: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: white;
-}
-
-.formulaire_livraison label{
-    padding-bottom: 10px;
-}
-
-
 /* test formulaire commande */
 
 .img_produits img {
-    width: 230px;
+    width: 235px;
     height: 128px;
     padding-left: 20px;
     padding-right: 20px;
@@ -286,13 +234,11 @@ font-size: 16px;
 }
 
 .compteur_individuel input[type="number"] {
-    width: 39px;
+    width: 45px;
     height: 59px;
 }
 
-.separateur hr {
-    width: 885px;
-}
+
 
 .formulaire_commande {
     display: flex;
@@ -342,11 +288,15 @@ font-size: 16px;
     margin-left: 50px;
 }
 
-.formulaire_input label {
+.title label {
     font-family: 'Syne', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: white;
+}
+
+.title{
+    padding-bottom: 10px;
 }
 
 .bouton_envoyer input[type="submit"] {
@@ -392,3 +342,9 @@ font-size: 16px;
         display: none;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .formulaire_input input[type="text"] {
+        width: 250px;
+    }
+    }
