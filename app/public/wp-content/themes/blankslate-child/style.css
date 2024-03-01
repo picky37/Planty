@@ -13,11 +13,11 @@ Updated: 2024-01-25 10:38:04
 
 /* Header ////////////////////////////////////////////////////////////////////////////////////////*/
 
-#wrapper{
+#wrapper {
     height: 80px;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -26,17 +26,18 @@ Updated: 2024-01-25 10:38:04
     color: black;
     flex-wrap: wrap;
 }
-.menu li{
+
+.menu li {
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
 }
 
-.menu ul{
+.menu ul {
     margin-right: 0px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -49,22 +50,22 @@ Updated: 2024-01-25 10:38:04
     font-weight: 700;
 } */
 
-.menu-item-35 a{
-font-weight: 500;
-font-size: 16px;
+.menu-item-35 a {
+    font-weight: 500;
+    font-size: 16px;
 }
 
-#header{
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header a{
+.header a {
     display: none;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     padding-left: 30px;
@@ -72,49 +73,62 @@ font-size: 16px;
     height: 30px;
 }
 
-.logo img{
+.logo img {
     width: 201px;
     height: 19px;
 }
 
-.menu-item-34{
+.menu-item-34 {
     background-color: #DC9F96;
 }
 
-.menu-item-34 a{
+.menu-item-34 a {
     color: white;
     font-size: 16px;
     font-weight: 700;
 }
 
-.menu-item-34:hover{
-    background-color:#C02E44;
+.menu-item-34:hover {
+    background-color: #C02E44;
     transition: 0.5s;
 }
 
 
 @media screen and (max-width: 908px) {
     #wrapper {
-    height: 230px;
+        height: 190px;
     }
+
     #header {
         align-items: flex-start;
-        }
-    .logo {
-        margin-top: 30px
-        }
     }
 
+    .logo {
+        margin-top: 30px
+    }
+}
 
-    @media screen and (max-width: 440px) {
-        #wrapper {
-        height: 350px;
-        }
-        #header {
-            flex-direction: column;
-            }
-        }
+@media screen and (max-width: 634px) {
+    #wrapper {
+        height: 300px;
+    }
+}
 
+@media screen and (max-width: 445px) {
+    #wrapper {
+        height: 360px;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    #wrapper {
+        height: 360px;
+    }
+}
 
 /* Body ////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -126,7 +140,7 @@ font-size: 16px;
     justify-content: center;
 } */
 
-.mentions{
+.mentions {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,14 +154,14 @@ font-size: 16px;
 
 @media screen and (max-width: 1500px) {
     .wp-image-81 {
-    display: none !important;
+        display: none !important;
     }
-    }
+}
 
 
 /* .wpcf7-form-control .wpcf7-text .wpcf7-validates-as-required */
 
-.noe{
+.noe {
     border-radius: 10px !important;
     height: 71px;
     width: 383px;
@@ -165,7 +179,7 @@ font-size: 16px;
     margin-top: -210px;
 }
 
-.formulaire_nr p{
+.formulaire_nr p {
     display: flex;
     justify-content: center;
     font-family: 'Syne', sans-serif;
@@ -174,7 +188,7 @@ font-size: 16px;
     padding-bottom: 10px;
 }
 
-.text_champ{
+.text_champ {
     padding-top: 25px;
     padding-bottom: 5px;
     display: flex;
@@ -183,12 +197,12 @@ font-size: 16px;
     padding-bottom: 10px;
 }
 
-.wpcf7-spinner{
+.wpcf7-spinner {
     display: none;
     border-radius: 10px;
 }
 
-.formulaire_nr input[type="submit"]{
+.formulaire_nr input[type="submit"] {
     border-radius: 5px;
     width: 198px;
     height: 55px;
@@ -200,15 +214,37 @@ font-size: 16px;
     font-size: 15px;
 }
 
-.formulaire_nr input[type="submit"]:hover{
+.formulaire_nr input[type="submit"]:hover {
     background-color: #C02E44;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 420px) {
+    .noe {
+        width: 250px;
+        justify-content: center;
+    }
+
+    .textarea_nr textarea {
+        width: 250px;
+    }
+
+    .img_formulaire {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .img_formulaire {
+        display: none;
+    }
 }
 
 
 /* Commander ////////////////////////////////////////////////////////////////////////////////////////*/
 
-.entry-title{
+.entry-title {
     display: none;
 }
 
@@ -295,7 +331,7 @@ font-size: 16px;
     color: white;
 }
 
-.title{
+.title {
     padding-bottom: 10px;
 }
 
@@ -347,4 +383,4 @@ font-size: 16px;
     .formulaire_input input[type="text"] {
         width: 250px;
     }
-    }
+}
