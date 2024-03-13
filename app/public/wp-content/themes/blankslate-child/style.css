@@ -20,7 +20,6 @@ Updated: 2024-01-25 10:38:04
 .menu {
     display: flex;
     align-items: center;
-    gap: 30px;
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     color: black;
@@ -45,10 +44,6 @@ Updated: 2024-01-25 10:38:04
     padding-left: 61px;
     color: black;
 }
-
-/* .menu-item-35 a:hover{
-    font-weight: 700;
-} */
 
 .menu-item-35 a {
     font-weight: 500;
@@ -130,15 +125,7 @@ Updated: 2024-01-25 10:38:04
     }
 }
 
-/* Body ////////////////////////////////////////////////////////////////////////////////////////*/
-
-
 /* Footer ////////////////////////////////////////////////////////////////////////////////////////*/
-
-/* #copyright{
-    display: flex;
-    justify-content: center;
-} */
 
 .mentions {
     display: flex;
@@ -157,9 +144,6 @@ Updated: 2024-01-25 10:38:04
         display: none !important;
     }
 }
-
-
-/* .wpcf7-form-control .wpcf7-text .wpcf7-validates-as-required */
 
 .noe {
     border-radius: 10px !important;
@@ -248,33 +232,23 @@ Updated: 2024-01-25 10:38:04
     display: none;
 }
 
-/* test formulaire commande */
-
-.img_produits img {
-    width: 235px;
-    height: 128px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .img_produits {
     display: flex;
     justify-content: center;
 }
 
-.compteur_individuel {
+.compteurs {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 50px;
+    gap: 190px;
 }
 
-.compteur_individuel input[type="number"] {
+.compteur input[type="number"] {
     width: 45px;
     height: 59px;
 }
-
-
 
 .formulaire_commande {
     display: flex;
@@ -315,11 +289,25 @@ Updated: 2024-01-25 10:38:04
     margin-bottom: 40px;
 }
 
+.separateur {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.separateur_1 {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 5px;
+    border-top: 1px solid #ffffff;
+}
+
 .separateur_2 {
     width: 5px;
-    height: 430px;
+    height: 460px;
     border-left: solid 1px white;
-    margin-top: 40px;
     padding-left: 50px;
     margin-left: 50px;
 }
@@ -358,15 +346,6 @@ Updated: 2024-01-25 10:38:04
     transition: 0.5s;
 }
 
-
-
-@media screen and (max-width: 1024px) {
-    .img_produits {
-        flex-wrap: wrap;
-    }
-}
-
-
 @media screen and (max-width: 1024px) {
     .formulaire_commande {
         flex-wrap: wrap;
@@ -377,10 +356,25 @@ Updated: 2024-01-25 10:38:04
     .separateur_2 {
         display: none;
     }
+
+    .separateur {
+        display: none;
+    }
+
+    .compteurs {
+        gap: 140px;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
     .formulaire_input input[type="text"] {
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .compteurs {
+        flex-wrap: wrap;
     }
 }
