@@ -203,6 +203,15 @@ Updated: 2024-01-25 10:38:04
     transition: 0.5s;
 }
 
+.wpcf7-response-output{
+    width: 350px;
+    border-radius: 15px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 420px) {
     .noe {
         width: 250px;
