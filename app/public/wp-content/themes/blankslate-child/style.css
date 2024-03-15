@@ -204,7 +204,7 @@ Updated: 2024-01-25 10:38:04
 }
 
 .wpcf7-response-output{
-    width: 350px;
+    width: 365px;
     border-radius: 15px;
     font-family: 'Syne', sans-serif;
     font-weight: 400;
@@ -224,6 +224,10 @@ Updated: 2024-01-25 10:38:04
 
     .img_formulaire {
         display: none;
+    }
+
+    .wpcf7-response-output {
+        width: 250px;
     }
 }
 
