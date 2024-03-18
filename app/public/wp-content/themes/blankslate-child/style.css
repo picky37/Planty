@@ -139,17 +139,14 @@ Updated: 2024-01-25 10:38:04
 
 /* Nous Rencontrer ////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1500px) {
-    .wp-image-81 {
-        display: none !important;
-    }
-}
-
 .noe {
     border-radius: 10px !important;
     height: 71px;
     width: 383px;
     border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .formulaire_nr textarea {
@@ -203,13 +200,19 @@ Updated: 2024-01-25 10:38:04
     transition: 0.5s;
 }
 
-.wpcf7-response-output{
+.wpcf7-response-output {
     width: 365px;
     border-radius: 15px;
     font-family: 'Syne', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .wp-image-81 {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -245,22 +248,77 @@ Updated: 2024-01-25 10:38:04
     display: none;
 }
 
-.img_produits {
-    display: flex;
-    justify-content: center;
-}
-
 .compteurs {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 50px;
-    gap: 190px;
+    gap: 40px;
 }
 
 .compteur input[type="number"] {
     width: 45px;
     height: 59px;
+    border: solid white;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.compteur {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.goût {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.fraise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 128px;
+    background-image: url(http://planty.local/wp-content/uploads/2024/02/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png);
+    background-size: cover;
+}
+
+.pamplemousse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 128px;
+    background-image: url(http://planty.local/wp-content/uploads/2024/02/estudio-bloom-tOitjphtIXU-unsplash-1.png);
+    background-size: cover;
+}
+
+.framboise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 128px;
+    background-image: url(http://planty.local/wp-content/uploads/2024/02/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png);
+    background-size: cover;
+}
+
+.citron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 128px;
+    background-image: url(http://planty.local/wp-content/uploads/2024/02/estudio-bloom-ezqnxsqUZ80-unsplash-1.png);
+    background-size: cover;
 }
 
 .formulaire_commande {
@@ -300,6 +358,9 @@ Updated: 2024-01-25 10:38:04
     width: 383px;
     border: none;
     margin-bottom: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .separateur {
@@ -374,20 +435,34 @@ Updated: 2024-01-25 10:38:04
         display: none;
     }
 
-    .compteurs {
-        gap: 140px;
-    }
-
 }
 
 @media screen and (max-width: 420px) {
     .formulaire_input input[type="text"] {
-        width: 250px;
+        width: 280px;
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 1040px) {
     .compteurs {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .fraise {
+        width: 320px;
+    }
+
+    .pamplemousse {
+        width: 320px;
+    }
+
+    .framboise {
+        width: 320px;
+    }
+
+    .citron {
+        width: 320px;
     }
 }
