@@ -87,7 +87,6 @@ Updated: 2024-01-25 10:38:04
     transition: 0.5s;
 }
 
-
 @media screen and (max-width: 908px) {
 
     #header {
@@ -119,6 +118,17 @@ Updated: 2024-01-25 10:38:04
     #wrapper {
         height: 360px;
     }
+
+    .formulaire_nom_droit {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulaire_nom_gauche {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 848px) {
@@ -145,6 +155,22 @@ Updated: 2024-01-25 10:38:04
     .logo {
         margin-left: 0px;
         padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .formulaire_commande {
+        width: 95%;
+    }
+
+    .formulaire_gauche {
+        width: auto !important;
+    }
+
+    .formulaire_droit {
+        width: auto !important;
     }
 
 }
