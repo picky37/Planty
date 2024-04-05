@@ -15,6 +15,9 @@
 	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
 	border: 2px solid #00a0d2; /* Blue */
+	display: flex;
+    justify-content: center;
+	max-width: 360px;
 }
 
 .wpcf7 form.init .wpcf7-response-output,
@@ -24,7 +27,7 @@
 }
 
 .wpcf7 form.sent .wpcf7-response-output {
-	border-color: #3B8E46; /* Green */
+	border-color: #fbfbfc; /* White */
 }
 
 .wpcf7 form.failed .wpcf7-response-output,
@@ -48,8 +51,9 @@
 
 .wpcf7-not-valid-tip {
 	color: #dc3232; /* Red */
-	font-size: 1em;
-	font-weight: normal;
+	font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 	display: block;
 }
 

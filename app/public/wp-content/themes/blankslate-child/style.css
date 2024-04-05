@@ -161,10 +161,6 @@ Updated: 2024-01-25 10:38:04
 
 @media screen and (max-width: 420px) {
 
-    .formulaire_commande {
-        width: 95%;
-    }
-
     .formulaire_gauche {
         width: auto !important;
     }
@@ -251,7 +247,6 @@ Updated: 2024-01-25 10:38:04
 }
 
 .wpcf7-response-output {
-    width: 365px;
     border-radius: 15px;
     font-family: 'Syne', sans-serif;
     font-weight: 400;
@@ -267,20 +262,16 @@ Updated: 2024-01-25 10:38:04
 
 @media screen and (max-width: 420px) {
     .noe {
-        width: 250px;
+        width: 98%;
         justify-content: center;
     }
 
     .textarea_nr textarea {
-        width: 250px;
+        width: 98%;
     }
 
     .img_formulaire {
         display: none;
-    }
-
-    .wpcf7-response-output {
-        width: 250px;
     }
 }
 
@@ -289,6 +280,7 @@ Updated: 2024-01-25 10:38:04
     .img_formulaire {
         display: none;
     }
+
 }
 
 
@@ -386,7 +378,6 @@ Updated: 2024-01-25 10:38:04
     font-weight: 700;
     font-size: 30px;
     color: white;
-    padding-bottom: 40px;
 }
 
 .formulaire_nom_droit {
@@ -394,7 +385,6 @@ Updated: 2024-01-25 10:38:04
     font-weight: 700;
     font-size: 30px;
     color: white;
-    padding-bottom: 40px;
 }
 
 .formulaire_droit {
@@ -407,7 +397,6 @@ Updated: 2024-01-25 10:38:04
     height: 71px;
     width: 383px;
     border: none;
-    margin-bottom: 40px;
     font-family: 'Syne', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -430,7 +419,7 @@ Updated: 2024-01-25 10:38:04
 
 .separateur_2 {
     width: 5px;
-    height: 460px;
+    height: 500px;
     border-left: solid 1px white;
     padding-left: 50px;
     margin-left: 50px;
@@ -444,7 +433,21 @@ Updated: 2024-01-25 10:38:04
 }
 
 .title {
-    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.title p {
+    padding-bottom: 20px;
+}
+
+.wpcf7-form-control-wrap input[type="email"] {
+    border-radius: 10px;
+    height: 71px;
+    width: 383px;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .bouton_envoyer input[type="submit"] {
@@ -462,7 +465,7 @@ Updated: 2024-01-25 10:38:04
 .bouton_envoyer {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 .bouton_envoyer input[type="submit"]:hover {
@@ -473,6 +476,10 @@ Updated: 2024-01-25 10:38:04
 @media screen and (max-width: 1024px) {
     .formulaire_commande {
         flex-wrap: wrap;
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        padding-left: 15px;
     }
 }
 
@@ -485,11 +492,18 @@ Updated: 2024-01-25 10:38:04
         display: none;
     }
 
+    .formulaire_droit {
+        padding-left: 30px;
+    }
 }
 
 @media screen and (max-width: 420px) {
     .formulaire_input input[type="text"] {
-        width: 280px;
+        width: 98%;
+    }
+
+    .wpcf7-form-control-wrap input[type="email"] {
+        width: 98%;
     }
 }
 
@@ -499,20 +513,38 @@ Updated: 2024-01-25 10:38:04
     }
 }
 
+
+
+@media screen and (max-width: 799px) {
+    .bouton_envoyer p {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .formulaire_droit {
+        padding-left: 0px;
+    }
+
+    .formulaire_nom_droit {
+        padding-top: 50px;
+    }
+}
+
 @media screen and (max-width: 429px) {
     .fraise {
-        width: 320px;
+        width: 300px;
     }
 
     .pamplemousse {
-        width: 320px;
+        width: 300px;
     }
 
     .framboise {
-        width: 320px;
+        width: 300px;
     }
 
     .citron {
-        width: 320px;
+        width: 300px;
     }
 }
